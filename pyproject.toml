@@ -1,0 +1,28 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "stickerbyvin"
+version = "0.1.0"
+description = "Python client for the StickerByVIN window sticker API: the original Monroney label by VIN as JSON (MSRP, options with prices, paint code, PDF)."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.8"
+authors = [{ name = "StickerByVIN", email = "support@stickerbyvin.com" }]
+keywords = ["vin", "window sticker", "monroney", "vin decoder", "car", "automotive", "api"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent",
+  "Topic :: Software Development :: Libraries",
+  "Intended Audience :: Developers",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://stickerbyvin.com/developers"
+Documentation = "https://stickerbyvin.com/developers"
+Source = "https://github.com/PRIMITIFA/stickerbyvin-python"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/stickerbyvin"]
