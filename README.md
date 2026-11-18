@@ -6,6 +6,8 @@ Python client for the [StickerByVIN window sticker API](https://stickerbyvin.com
 
 ```bash
 pip install stickerbyvin
+# until the PyPI release is live:
+pip install git+https://github.com/PRIMITIFA/stickerbyvin-python
 export SBV_KEY=sbv_live_...
 ```
 
